@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1244px;
+  height: 560px;
+  background-color: rgb(56, 58, 58);
+}
+.apparat {
+  margin: 0 auto;
+  width: 684px;
+  /* width: 100%; */
+  height: 500px;
+  background: url(./piramida-img/pole22.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.display {
+  position: absolute;
+  width: 550px;
+  height: 290px;
+  margin: 85px 0px 0px 71px;
+
+  background-color: #00acf7;
+  overflow: hidden;
+}
+.item__cont {
+  border-left: solid 5px #827855;
+  border-right: solid 5px #827855;
+  width: 100px;
+  height: 100px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.line1 {
+  width: 100px;
+  height: 300px;
+  margin-top: -3702px;
+  padding: 0px 0px 0px 0px;
+  transition: 5s;
+}
+
+.item {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+}
+.start {
+  width: 200px;
+  border: solid 3px black;
+}
